@@ -5,7 +5,9 @@ import { Layout } from './Layout';
 
 
 createRoot(document.getElementById('root')!).render(
-  <BrowserRouter>
-    <Layout />
-  </BrowserRouter>
+  <StrictMode>
+    <BrowserRouter>
+      <Layout />
+    </BrowserRouter>
+  </StrictMode>
 );
