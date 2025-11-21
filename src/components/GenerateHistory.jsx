@@ -8,7 +8,6 @@ export const GenerateHistory = () => {
 
     return (
         <div>
-            изменения
             {data.map((text) => {
                 <div>
                     <p key={text}>{text}</p>
